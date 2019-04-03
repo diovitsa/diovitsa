@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/diovitsa/precache-manifest.4f416a62d11da8f315cdc90d795d63ac.js"
+  "/diovitsa/precache-manifest.35487509791bde1c125456e4cd2cee89.js"
 );
 
 workbox.clientsClaim();
