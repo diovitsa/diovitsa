@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/diovitsa/static/css/main.22b50757.chunk.css"
   },
   {
-    "revision": "b7d8cab66ae9759f48afb0be5553ea91",
+    "revision": "72fd07d3efd2bd986ae9900fcad3090f",
     "url": "/diovitsa/index.html"
   }
 ];
