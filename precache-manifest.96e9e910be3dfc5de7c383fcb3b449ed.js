@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/diovitsa/static/js/runtime~main.b8720481.js"
   },
   {
-    "revision": "14140e6163006ac96aeb",
-    "url": "/diovitsa/static/js/main.9173ab2a.chunk.js"
+    "revision": "51d8bf0aaa5a2b7fe55a",
+    "url": "/diovitsa/static/js/main.8079abfb.chunk.js"
   },
   {
     "revision": "7fe3879d0dc7bc5e1652",
     "url": "/diovitsa/static/js/2.9d941060.chunk.js"
   },
   {
-    "revision": "14140e6163006ac96aeb",
+    "revision": "51d8bf0aaa5a2b7fe55a",
     "url": "/diovitsa/static/css/main.22b50757.chunk.css"
   },
   {
-    "revision": "d1a79b5d6d71df05a567837acb01d2fa",
+    "revision": "0fc1243fe88065d8f2bef7636943af1f",
     "url": "/diovitsa/index.html"
   }
 ];
