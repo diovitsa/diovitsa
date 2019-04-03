@@ -10,7 +10,7 @@ class LogInPage extends React.Component {
     return DataService.signIn(email, password)
       .then(() => {
         if (this.erorMessage) this.erorMessage.removeAttribute('style');
-        this.props.history.push(process.env.PUBLIC_URL + '/list');
+        this.props.history.push('/list');
       })
       .catch(() => {
         this.erorMessage = document.querySelector('#errorMessage');

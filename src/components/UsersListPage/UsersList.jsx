@@ -21,7 +21,7 @@ class ListOfUsers extends React.Component {
       .then(users => {
         this.setState({ users: users });
       })
-      .catch(() => this.props.history.push(process.env.PUBLIC_URL + '/'));
+      // .catch(() => this.props.history.push('/'));
   };
 
   componentWillMount() {
@@ -41,7 +41,7 @@ class ListOfUsers extends React.Component {
   };
 
   logOut = () => {
-    this.props.history.push(process.env.PUBLIC_URL + '/');
+    this.props.history.push('/');
     DataService.resetSession();
   };
 
