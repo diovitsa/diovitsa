@@ -8,8 +8,8 @@ export default class TestApp extends React.Component {
     return (
       <Router>
         <div>
-          <Route exact path="/" component={LoginPage}/>
-          <Route path="/list" component={UserList}/>
+          <Route exact path={ process.env.PUBLIC_URL + '/' } component={LoginPage}/>
+          <Route path={ process.env.PUBLIC_URL + '/list' } component={UserList}/>
         </div>
       </Router>
     );
